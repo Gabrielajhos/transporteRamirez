@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.proximamente{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+      ), url(../img/electrico.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+
+.contacto{
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.8), 
+    rgba(0, 0, 0, 0.8)
+  ), url(../img/imagen10.png);
+      background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+}
