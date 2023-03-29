@@ -15,7 +15,7 @@ import Elevador from '../../img/elevador.png'
 import Bodega from '../../img/almacen.png'
 import Prisa from '../../img/prisa.jpg'
 import Llego from '../../img/llego.jpg'
-import Falabella from '../../img/falabella.png'
+import Falabella from '../../img/falabella.jpg'
 import Footer from '../components/Footer'
 const Inicio = () => {
   return (
