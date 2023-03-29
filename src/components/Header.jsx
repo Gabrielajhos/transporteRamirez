@@ -13,7 +13,7 @@ const Header = () => {
 
     <div className='flex items-center space-x-48 m-auto'>
 
-<a href='/inicio'>
+<a href='/'>
         <img className=' w-72 md:w-full ml-12' src={Logo} alt="Logo inicio"/>
 </a>
         <div className=''>
@@ -25,7 +25,7 @@ const Header = () => {
     </div>
 
     <nav className='bg-gray-600 md:space-x-48 p-8 text-center shadow-md items-center font-bold text-white block md:flex'>
-    <Link to='/inicio' className='hover:scale-110 block'>Inicio</Link>
+    <Link to='/' className='hover:scale-110 block'>Inicio</Link>
     <Link to='/nosotros' className='hover:scale-110 block'>Nosotros</Link>
     <Link to='/servicios'  className='hover:scale-110 block'>Nuestros Servicios</Link>
     <Link to='/flota' className='hover:scale-110 block'>Flota</Link>

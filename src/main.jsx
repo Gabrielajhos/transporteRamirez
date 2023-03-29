@@ -12,12 +12,12 @@ import Contactanos from './pages/Contactanos'
 
 const router = createBrowserRouter([
 {
-  path: '/',
+  path: '',
   element: <Header/>,
   children: [
 {
   index: true,
-  path:'/inicio',
+  path:'/',
   element: <Inicio />
 },
 {
