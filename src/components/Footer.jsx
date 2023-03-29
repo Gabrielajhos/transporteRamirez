@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Instagram from '../../img/instagram.png'
+import Linkedin from '../../img/linkedin.png'
 
 const Footer = () => {
   return (
@@ -16,11 +18,11 @@ const Footer = () => {
         </div>
         <Link className='text-white font-bold hover:cursor-pointer'>Terminos y condiciones</Link>
         <Link className='hover:cursor-pointer'>
-            <img src='../../img/instagram.png' alt="logo instagram"/>
+            <img src={Instagram} alt="logo instagram"/>
         </Link>
 
         <Link className='hover:cursor-pointer'>
-            <img src='../../img/linkedin.png' alt="logo instagram"/>
+            <img src={Linkedin} alt="logo instagram"/>
         </Link>
       
         </div>

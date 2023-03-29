@@ -5,6 +5,12 @@ import Electricos from '../../img/flotaElec.png'
 import Furgoneta from '../../img/furgoneta.png'
 import Repartidor from '../../img/repartidor.png'
 import Entrega from '../../img/entrega-rapida.png'
+import Montacargas from '../../img/montacargas.png'
+import Volumen from '../../img/volumen.png'
+import Receptor from '../../img/receptor.png'
+import Hoja from '../../img/hoja.png'
+import innovar from '../../img/innovar.png'
+import Dolar from '../../img/dolar.png'
 import Footer from '../components/Footer'
 
 
@@ -40,13 +46,13 @@ const Flota = () => {
     <div className='flex space-x-10 ml-4 mt-10'>
 
 <div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Capacidad para mercaderias y productos pesados!</p> 
-<img className='m-auto' src='../../img/montacargas.png' alt="Peso icono"/></div>
+<img className='m-auto' src={Montacargas} alt="Peso icono"/></div>
 
 <div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Mayor capacidad de carga y volumen!!</p> 
-<img className='m-auto' src='../../img/volumen.png' alt="Repartidor icono"/></div>
+<img className='m-auto' src={Volumen} alt="Repartidor icono"/></div>
 
 <div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Entregas última milla!!</p> 
-<img className='m-auto' src='../../img/receptor.png' alt="Repartidor icono"/></div>
+<img className='m-auto' src={Receptor} alt="Repartidor icono"/></div>
 </div>
     </div>
 
@@ -61,13 +67,13 @@ const Flota = () => {
     <div className='flex space-x-10 ml-4 mt-10'>
 
 <div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Tecnología sustentable y amigable con el medio ambiente!</p> 
-<img className='m-auto' src='../../img/hoja.png' alt="furgoneta icono"/></div>
+<img className='m-auto' src={Hoja} alt="furgoneta icono"/></div>
 
 <div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Innovación, progresos y avances!!</p> 
-<img className='m-auto' src='../../img/innovar.png' alt="Repartidor icono"/></div>
+<img className='m-auto' src={innovar} alt="Repartidor icono"/></div>
 
 <div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Mayor cuidado de costos  de nuestros servicios!!</p> 
-<img className='m-auto' src='../../img/dolar.png' alt="Repartidor icono"/></div>
+<img className='m-auto' src={Dolar} alt="Repartidor icono"/></div>
 </div>
     
 </div>
