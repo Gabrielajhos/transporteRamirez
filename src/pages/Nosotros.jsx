@@ -7,10 +7,9 @@ const Nosotros = () => {
   return (
     <div>
 
-    <section className='flex'>
-<img src={Almacen1} className="w-1/2  mt-12" alt="imagen fongo"/>
+    <section className='block md:flex '>
+<img src={Almacen1} className="mb:w-1/2 w-full  mb:mt-12" alt="imagen fongo"/>
         <div className='p-3 m-6'>
-        
             <h1 className='text-4xl font-semibold text-gray-600 text-center mb-4'>Nostoros</h1>
             <p className='text-2xl text-justify'>    Somos una empresa joven que ha estado creciendo potencialmente durante 6 años, asentando y 
             creando raices solidas. Hemos trabajado como socios transportistas  con empresas altamente reconocidas en el país. Desde nuestros inicios
@@ -20,7 +19,7 @@ const Nosotros = () => {
     </section>
 
 
-      <section className='flex'>
+      <section className='block mb:flex'>
       <div className='p-3 m-6'>
         <h2 className='text-4xl font-semibold text-gray-600 text-center mb-4'> Mision y vision</h2>
         <p className='text-2xl text-justify'>Nuestra mision se basa en brindar un servicio de calidad, confiaza, sustentabilidad para garantizar
@@ -29,7 +28,7 @@ const Nosotros = () => {
         un servicio eficiente.</p>
         </div>
 
-        <img src={Almacen2} className="w-1/2  mt-12" alt="imagen fongo"/>
+        <img src={Almacen2} className="md:w-1/2  md:mt-12" alt="imagen fongo"/>
 
       </section>
 <Footer/>

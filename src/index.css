@@ -20,4 +20,11 @@
       background-size: cover;
     background-repeat: no-repeat;
     height: 50rem;
+    
 }
+
+@media(max-width: 600px) {
+  .contacto{
+    height: 100%;
+  }
+  }

@@ -5,7 +5,7 @@ import Linkedin from '../../img/linkedin.png'
 
 const Footer = () => {
   return (
-    <div className='bg-gray-600 flex items-center space-x-16 p-4'>
+    <div className='bg-gray-600 md:flex block items-center space-x-16 p-4'>
 
 <div className=''>
         <h1 className='text-4xl m-1 text-white font-bold' > Transporte Ramirez</h1>

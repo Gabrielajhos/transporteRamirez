@@ -5,9 +5,9 @@ const Contactanos = () => {
   return (
     <>
     <section className='contacto'>
-    <h1 className='mb-32 text-5xl text-red-600 max-w-3xl text-center font-bold m-auto'>Contactanos por cualquiera de nuestros medios oficiales</h1>
+    <h1 className='mb-32 mb:text-5xl text-4xl text-red-600 max-w-3xl text-center font-bold m-auto'>Contactanos por cualquiera de nuestros medios oficiales</h1>
 
-<div className='flex'>
+<div className='block mb:flex'>
 <div>
     <h2 className='text-white text-4xl '>Comunicate con nosotros para conocer mas sobre nuestros servicios.</h2>
 
@@ -15,7 +15,7 @@ const Contactanos = () => {
 
 </div>
 
-    <form className='grid-cols-2 gap-2'>
+    <form className='grid-cols-2 gap-2 p-4'>
 
     <fieldset>
         <input className='p-4 rounded-sm m-2 font-bold' placeholder='Nombre' name='nombre' id='nombre'/>

@@ -19,12 +19,12 @@ const Flota = () => {
     <>
 <h1 className='text-6xl text-gray-600 text-center p-8 m-12'>Nuestros vehiculos</h1>
     <div>
-    <div className='flex items-center mt-10'>  
+    <div className='block mb:flex items-center mt-10'>  
     <img className='max-h-80' src={Camionetas} alt='Flota camionetas'/>
     <h2 className='text-5xl text-gray-600 font-bold'>Flota Camionetas</h2>
     </div>
 
-    <div className='flex space-x-10 ml-4 mt-10'>
+    <div className='mb:flex block mb:space-x-10 ml-4 mt-10'>
 
         <div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Vehículos en excelente estado, listos para entregas!</p> 
         <img className='m-auto' src={Furgoneta} alt="furgoneta icono"/></div>
@@ -38,33 +38,33 @@ const Flota = () => {
       
     </div>
     <div>
-    <div className='flex items-center mt-32'>
+    <div className='block mb:flex items-center mt-32'>
     <img className='max-h-80' src={Camiones} alt='Flota camiones'/>
     <h2 className='text-5xl text-gray-600 font-bold'>Flota Camiones</h2>
     </div> 
 
-    <div className='flex space-x-10 ml-4 mt-10'>
+    <div className='mb:flex block content-center mb:space-x-10 ml-4 mt-10'>
 
-<div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Capacidad para mercaderias y productos pesados!</p> 
+<div className=' m-4  text-center text-2xl'> <p className='max-w-sm mb-4'>Capacidad para mercaderias y productos pesados!</p> 
 <img className='m-auto' src={Montacargas} alt="Peso icono"/></div>
 
-<div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Mayor capacidad de carga y volumen!!</p> 
+<div className=' m-4  text-center text-2xl'> <p className='max-w-sm mb-4'>Mayor capacidad de carga y volumen!!</p> 
 <img className='m-auto' src={Volumen} alt="Repartidor icono"/></div>
 
-<div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Entregas última milla!!</p> 
+<div className=' mb:m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Entregas última milla!!</p> 
 <img className='m-auto' src={Receptor} alt="Repartidor icono"/></div>
 </div>
     </div>
 
 <div>
-    <div className='flex items-center mt-32'>
+    <div className='block mb:flex items-center mt-32'>
     <img className='max-h-80' src={Electricos} alt='Flota electrica'/>
     <div>
     <h2 className='text-3xl text-gray-600'>Proximamente!!!</h2>
-    <h2 className='text-5xl text-gray-600 font-bold'> Flota electrica</h2>
+    <h2 className='text-5xl text-gray-600 text-center font-bold'> Flota electrica</h2>
     </div> 
     </div>
-    <div className='flex space-x-10 ml-4 mt-10'>
+    <div className='block mb:flex mb:space-x-10 ml-4 mt-10'>
 
 <div className=' m-4 text-center text-2xl'> <p className='max-w-sm mb-4'>Tecnología sustentable y amigable con el medio ambiente!</p> 
 <img className='m-auto' src={Hoja} alt="furgoneta icono"/></div>
