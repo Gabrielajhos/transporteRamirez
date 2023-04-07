@@ -1,7 +1,6 @@
 import React from 'react'
 import Imagen1 from '../../img/imagen1.png'
 import Imagen2 from '../../img/imagen2.png'
-import Imagen3 from '../../img/imagen3.png'
 import Imagen4 from '../../img/imagen4.jpg'
 import Imagen5 from '../../img/imagen5.jpg'
 import Cajas from '../../img/cajas.png'
@@ -16,42 +15,39 @@ import Bodega from '../../img/almacen.png'
 import Prisa from '../../img/prisa.jpg'
 import Llego from '../../img/llego.jpg'
 import Falabella from '../../img/falabella.jpg'
+import Intercarry from '../../img/intercarry.jpg'
+import Loginsa from '../../img/loginsa.jpg'
+import Ikea from '../../img/ikea.jpg'
 import Footer from '../components/Footer'
+
 const Inicio = () => {
   return (
     <div>
     <div
   id="carouselExampleSlidesOnly"
-  class="relative"
+  className="relative"
   data-te-carousel-init
   data-te-carousel-slide>
   <div
-    class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+    className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
     <div
-      class="relative float-left -mr-[100%] w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
+      className="relative float-left -mr-[100%] w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item
       data-te-carousel-active>
       <img
         src={Imagen1}
-        class="block w-full"
+        className="block w-full"
         alt="Wild Landscape" />
     </div>
     <div
-      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
+      className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item>
       <img
         src={Imagen2}
-        class="block w-full"
+        className="block w-full"
         alt="Camera" />
     </div>
-    <div
-      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
-      data-te-carousel-item>
-      <video controls poster="vistaprevia.jpg">
-    <source src={Imagen3} type="video/mp4"/>
-     
-    </video>
-    </div>
+  
   </div>
 </div>
 <div className='bg-gray-600 text-white font-bold p-4 '>
@@ -71,7 +67,7 @@ const Inicio = () => {
 
 <div className='md:flex block text-center items-center'>
 
-<img className='md:w-1/2 m-8 delay-75' src={Imagen4} alt="Imagen paqueteria2"/>
+<img className='md:w-1/2 w-full md:m-8 delay-75' src={Imagen4} alt="Imagen paqueteria2"/>
 
 <div>
     <h2 className='text-4xl mb-7 text-gray-600'> Sistema Punto a punto</h2>
@@ -87,7 +83,7 @@ const Inicio = () => {
     <p className='text-2xl'>En nuestro servicio última milla, nos comprometemos a el cliente final. Disponemos de organizacion y 
     recursos para que el servicio sea lo más eficiente posible. Proporcionamos flexibilidad y comodidad en nuestras entregas.</p>
 </div>
-    <img className='md:w-1/2  m-8' src={Imagen5} alt="Imagen paqueteria"/>
+    <img className='md:w-1/2 w-full md:m-8' src={Imagen5} alt="Imagen paqueteria"/>
 </div>
 </div>
 
@@ -131,10 +127,13 @@ const Inicio = () => {
 <section>
     <h2 className='text-4xl text-gray-600 text-center p-8 m-5 '>Nuestros clientes</h2>
 
-    <div className='md:flex block space-x-10 items-center m-auto'>
-      <img className='w-44 m-4' src={Llego} alt="empresas"/>
-      <img className='w-44 m-4' src={Prisa} alt="empresas"/>
-      <img className='w-44 m-4' src={Falabella} alt="empresas"/>
+    <div className='md:flex block md:space-x-10 items-center m-auto'>
+      <img className='w-44 md:m-4 m-auto' src={Llego} alt="empresas"/>
+      <img className='w-44 md:m-4 m-auto' src={Prisa} alt="empresas"/>
+      <img className='w-44 md:m-4 m-auto' src={Falabella} alt="empresas"/>
+      <img className='w-44 md:m-4 m-auto' src={Ikea} alt="empresas"/>
+      <img className='w-44 md:m-4 m-auto' src={Loginsa} alt="empresas"/>
+      <img className='w-44 md:m-4 m-auto' src={Intercarry} alt="empresas"/>
     
     </div>
 </section>

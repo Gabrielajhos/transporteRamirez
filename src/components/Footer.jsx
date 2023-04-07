@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='bg-gray-600 md:flex block items-center space-x-16 p-4'>
 
-<div className=''>
+<div>
         <h1 className='text-4xl m-1 text-white font-bold' > Transporte Ramirez</h1>
 
         <h2 className='text-2xl text-white '>Nuestro compromiso en cada viaje</h2>
@@ -17,14 +17,15 @@ const Footer = () => {
             
         </div>
         <Link className='text-white font-bold hover:cursor-pointer'>Terminos y condiciones</Link>
-        <Link className='hover:cursor-pointer'>
+        <div className='flex space-x-4 m-auto'>
+        <Link className='hover:cursor-pointer m-4'>
             <img src={Instagram} alt="logo instagram"/>
         </Link>
 
-        <Link className='hover:cursor-pointer'>
+        <Link className='hover:cursor-pointer m-4'>
             <img src={Linkedin} alt="logo instagram"/>
         </Link>
-      
+        </div>
         </div>
   )
 }
