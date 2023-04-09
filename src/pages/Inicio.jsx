@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Imagen1 from '../../img/imagen1.png'
 import Imagen2 from '../../img/imagen2.png'
 import Imagen4 from '../../img/imagen4.jpg'
@@ -34,12 +35,12 @@ const Inicio = () => {
       className="relative float-left -mr-[100%] w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item
       data-te-carousel-active>
-      <a href='/contactanos'>
+      <Link to='/contactanos'>
       <img
         src={Imagen1}
         className="block w-full"
         alt="Wild Landscape" />
-        </a>
+        </Link>
     </div>
     <div
       className="relative float-left -mr-[100%] hidden w-11/12 transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
