@@ -19,7 +19,7 @@ const Flota = () => {
     <>
 <h1 className='text-6xl text-gray-600 text-center p-8 m-12'>Nuestros vehiculos</h1>
     <div>
-    <div className='block mb:flex items-center mt-10'>  
+    <div className='block md:flex items-center mt-10'>  
     <img className='max-h-80' src={Camionetas} alt='Flota camionetas'/>
     <h2 className='text-5xl text-gray-600 font-bold'>Flota Camionetas</h2>
     </div>
