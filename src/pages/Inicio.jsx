@@ -40,7 +40,7 @@ const Inicio = () => {
         alt="Wild Landscape" />
     </div>
     <div
-      className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
+      className="relative float-left -mr-[100%] hidden w-11/12 transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item>
       <img
         src={Imagen2}
@@ -127,7 +127,7 @@ const Inicio = () => {
 <section>
     <h2 className='text-4xl text-gray-600 text-center p-8 m-5 '>Nuestros clientes</h2>
 
-    <div className='md:flex block md:space-x-10 items-center m-auto'>
+    <div className='md:flex block md:space-x-10 w-full items-center m-auto'>
       <img className='w-44 md:m-4 m-auto' src={Llego} alt="empresas"/>
       <img className='w-44 md:m-4 m-auto' src={Prisa} alt="empresas"/>
       <img className='w-44 md:m-4 m-auto' src={Falabella} alt="empresas"/>
