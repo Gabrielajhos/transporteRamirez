@@ -127,13 +127,13 @@ const Inicio = () => {
 <section>
     <h2 className='text-4xl text-gray-600 text-center p-8 m-5 '>Nuestros clientes</h2>
 
-    <div className='md:flex block md:space-x-10 w-full items-center m-auto'>
-      <img className='w-44 md:m-4 m-auto' src={Llego} alt="empresas"/>
-      <img className='w-44 md:m-4 m-auto' src={Prisa} alt="empresas"/>
-      <img className='w-44 md:m-4 m-auto' src={Falabella} alt="empresas"/>
-      <img className='w-44 md:m-4 m-auto' src={Ikea} alt="empresas"/>
-      <img className='w-44 md:m-4 m-auto' src={Loginsa} alt="empresas"/>
-      <img className='w-44 md:m-4 m-auto' src={Intercarry} alt="empresas"/>
+    <div className='md:flex block md:space-x-10 w-full items-center justify-center m-auto'>
+      <img className='w-36 md:m-4 m-auto' src={Llego} alt="empresas"/>
+      <img className='w-36 md:m-4 m-auto' src={Prisa} alt="empresas"/>
+      <img className='w-36 md:m-4 m-auto' src={Falabella} alt="empresas"/>
+      <img className='w-36 md:m-4 m-auto' src={Ikea} alt="empresas"/>
+      <img className='w-40 md:m-4 m-auto' src={Loginsa} alt="empresas"/>
+      <img className='w-40 md:m-4 m-auto' src={Intercarry} alt="empresas"/>
     
     </div>
 </section>
