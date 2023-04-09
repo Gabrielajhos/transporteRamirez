@@ -8,7 +8,7 @@ const Nosotros = () => {
     <div>
 
     <section className='block md:flex '>
-<img src={Almacen1} className="mb:w-1/2 w-full  mb:mt-12" alt="imagen fongo"/>
+<img src={Almacen1} className="md:w-1/2 w-full  mb:mt-12" alt="imagen fongo"/>
         <div className='p-3 m-6'>
             <h1 className='text-4xl font-semibold text-gray-600 text-center mb-4'>Nostoros</h1>
             <p className='text-2xl text-justify'>    Somos una empresa joven que ha estado creciendo potencialmente durante 6 años, asentando y 
