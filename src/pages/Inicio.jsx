@@ -34,10 +34,12 @@ const Inicio = () => {
       className="relative float-left -mr-[100%] w-full transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
       data-te-carousel-item
       data-te-carousel-active>
+      <a href='/contactanos'>
       <img
         src={Imagen1}
         className="block w-full"
         alt="Wild Landscape" />
+        </a>
     </div>
     <div
       className="relative float-left -mr-[100%] hidden w-11/12 transition-transform duration-[200ms] ease-in-out motion-reduce:transition-none"
